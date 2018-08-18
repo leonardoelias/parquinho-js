@@ -1,0 +1,26 @@
+{
+  "name": "parquinho-js",
+  "version": "0.0.1",
+  "description": "Simple Javascript environment for fun.",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "start": "nodemon index.js -q -x 'clear && node'",
+    "test": "jest test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardoelias/parquinho-js.git"
+  },
+  "author": "Leonardo Elias",
+  "license": "ISC",
+  "homepage": "https://github.com/leonardoelias/parquinho-js#readme",
+  "dependencies": {
+    "eslint": "^4.11.0",
+    "eyes": "^0.1.8",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
